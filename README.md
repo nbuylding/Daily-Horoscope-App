@@ -2,10 +2,6 @@
 
 This project is a daily horoscope app that provides users with their horoscope based on the current day.
 
-## Authors
-
--   [@nbuylding](https://github.com/nbuylding)
-
 ## Lessons Learned
 
 I learned how to fetch data through the aztro.sameerkumar api, as well as how to utilize an event handler for a dropdown menu.
@@ -21,3 +17,7 @@ I learned how to fetch data through the aztro.sameerkumar api, as well as how to
 ## Live Site
 
 -   [Daily Horoscope]()
+
+## Authors
+
+-   [@nbuylding](https://github.com/nbuylding)
