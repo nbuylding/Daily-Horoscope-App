@@ -16,7 +16,7 @@ I learned how to fetch data through the aztro.sameerkumar api, as well as how to
 
 ## Live Site
 
--   [Daily Horoscope]()
+-   [Daily Horoscope](https://yourdailyhoroscopestats.netlify.app/)
 
 ## Authors
 
