@@ -1,0 +1,75 @@
+* {
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-image: url('starry background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+h1 {
+	margin: 50px 0 30px;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+.sign-selection {
+	padding: 0 1rem;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.sign-selection option {
+	text-align: left;
+	color: rgb(151, 25, 67);
+}
+
+.card-container {
+	background-color: #ffffff63;
+	border-radius: 10px;
+	margin-top: 3rem;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+
+.card-container h2 {
+	font-size: 1.5rem;
+	padding-top: 1rem;
+}
+
+.card-container p {
+	font-weight: 300;
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.2rem;
+}
+
+.card-container ul {
+	padding-bottom: 1rem;
+}
+
+.card-container li {
+	font-size: 1.2rem;
+	list-style: none;
+	font-weight: 300;
+}
+
+.card-container strong {
+	color: rgb(151, 25, 67);
+	font-size: 1.2rem;
+}
