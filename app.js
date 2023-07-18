@@ -7,10 +7,10 @@ selectSign.addEventListener('change', function () {
 	const sign = selectSign.value;
 	// const URL = `https://aztro.sameerkumar.website/?sign=${sign}&day=today`;
 	fetch(`https://aztro.sameerkumar.website/?sign=${sign}&day=today`, {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json',
-		},
+		method: 'POST'
+		// headers: {
+		// 	'Content-Type': 'application/json',
+		// },
 	})
 		.then((response) => response.json())
 		.then((data) => {
