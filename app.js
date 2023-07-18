@@ -5,8 +5,8 @@ const horoscopeContainer = document.querySelector('.card-container');
 
 selectSign.addEventListener('change', function () {
 	const sign = selectSign.value;
-	const URL = `https://aztro.sameerkumar.website/?sign=${sign}&day=today`;
-	fetch(URL, {
+	// const URL = `https://aztro.sameerkumar.website/?sign=${sign}&day=today`;
+	fetch(`https://aztro.sameerkumar.website/?sign=${sign}&day=today`, {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json',
